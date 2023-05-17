@@ -352,6 +352,12 @@ button:hover {
   }
 }
 
+@media (max-width: 600px) {
+  .idea-img {
+    max-width: 400px !important;
+  }
+}
+
 @media (max-width: 546px) {
   .floatingTitle {
     font-size: 90px;
@@ -398,5 +404,9 @@ button:hover {
 
   .tech-span {
     font-size: 35px;
+  }
+
+  .idea-img {
+    max-width: 300px !important;
   }
 }
